@@ -4,7 +4,7 @@
   "version": "0.4.6",
   "date": "2026-10-26",
   "platform": "Windows 64-bit",
-  "installer": "downloads/NEXTUP_DRAG_Beta_0.4.6_Instalador.exe",
+  "installer": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/v0.4.6-beta/NEXTUP_DRAG_Beta_0.4.6_Instalador.exe",
   "installer_sha256": "3cb90330977c200029aaeda80736fc7011be4c6296da1c68a601af280135b16a",
   "update_file": "updates/NEXTUP_DRAG_Beta_0.4.6.pck",
   "update_sha256": "51aee0490c65a1eecb8b52bfa2eab3de59fd06a6eba84ac9b442a8aa25e797f7",
@@ -16,4 +16,3 @@
     "Instalador beta actualizado desde el proyecto NEXTUP DRAG."
   ]
 }
-
