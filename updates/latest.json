@@ -2,18 +2,19 @@
   "game": "NEXTUP DRAG Beta",
   "channel": "beta",
   "version": "0.4.7",
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "platform": "Windows 64-bit",
-  "installer": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/v0.4.7-beta/NEXTUP_DRAG_Beta_0.4.7_Instalador.exe",
-  "installer_sha256": "a282778ef839227f9b6f4e36cae1bf7fa340fc371514c207c89242e74ccaeb6a",
+  "installer": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-2026102701/NEXTUP_DRAG_Instalador_Con_Updates.exe",
+  "installer_sha256": "587540f4e37fdbd0d436f0582d8a94c41f070e8931599a2b5da6dd94ffb7e48b",
   "update_file": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/v0.4.7-beta/NEXTUP_DRAG_Beta_0.4.7.pck",
   "update_sha256": "4a990294ca032f0e7faf5eb14f379e043d5d9d152cccfbaa672cd69507573ddf",
   "multiplayer_endpoint": "malls-unplanned.tun.ply.gg:37447",
   "local_udp_port": 24824,
   "notes": [
-    "La pantalla de carga revisa novedades y muestra el resumen antes de entrar.",
-    "Descarga y aplica paquetes de actualización dentro del cliente; no hace falta bajar otro instalador después de esta versión.",
-    "Verifica el paquete antes de instalarlo y conserva las cuentas y los guardados locales.",
-    "Se corrigió el paquete de datos que impedía abrir el cliente instalado."
-  ]
+    "Cliente avanzado con lanzador de actualizaciones. Instala esta versión una sola vez.",
+    "Cuatro carros nuevos, mejoras del concesionario, lluvia, chat y emojis.",
+    "Las próximas actualizaciones se comprueban y descargan desde el lanzador.",
+    "Las cuentas y partidas se conservan al actualizar."
+  ],
+  "build": 2026102701
 }
