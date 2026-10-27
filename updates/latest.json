@@ -11,10 +11,11 @@
   "multiplayer_endpoint": "malls-unplanned.tun.ply.gg:37447",
   "local_udp_port": 24824,
   "notes": [
-    "Cliente avanzado con lanzador de actualizaciones. Instala esta versión una sola vez.",
-    "Cuatro carros nuevos, mejoras del concesionario, lluvia, chat y emojis.",
-    "Las próximas actualizaciones se comprueban y descargan desde el lanzador.",
-    "Las cuentas y partidas se conservan al actualizar."
+    "Elige H2H o Bracket al preparar un reto en el lobby multijugador.",
+    "Bracket permite dial individual con tres decimales y salida compensada.",
+    "Friends, Cash y Pink disponibles con los dos tipos de carrera.",
+    "Resultados por RT, ET, dial y breakout calculados por el servidor.",
+    "Bracket se concentra en el lobby multijugador; se retiró el acceso del mapa."
   ],
-  "build": 2026102701
+  "build": 202610271910
 }
