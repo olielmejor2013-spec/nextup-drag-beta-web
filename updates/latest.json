@@ -1,22 +1,22 @@
 {
   "game": "NEXTUP DRAG Beta",
   "channel": "beta",
-  "version": "0.4.8",
+  "version": "0.4.9",
   "date": "2026-10-28",
   "platform": "Windows 64-bit",
   "installer": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-2026102701/NEXTUP_DRAG_Instalador_Con_Updates.exe",
   "installer_sha256": "587540f4e37fdbd0d436f0582d8a94c41f070e8931599a2b5da6dd94ffb7e48b",
-  "update_file": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/v0.4.7-beta/NEXTUP_DRAG_Beta_0.4.7.pck",
-  "update_sha256": "4a990294ca032f0e7faf5eb14f379e043d5d9d152cccfbaa672cd69507573ddf",
+  "update_file": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-2026102701/NEXTUP_Update_202610280200.zip",
+  "update_sha256": "18bb5375977d9e9cad2f0852e0285eb0cfc845a1bc2460f0ba77e594fcb066f3",
   "multiplayer_endpoint": "malls-unplanned.tun.ply.gg:37447",
   "local_udp_port": 24824,
   "notes": [
-    "Used Cars en el mapa, con paneles separados para comprar/trade, publicar y mis anuncios.",
-    "Lista de carros con tres columnas, desplazamiento y páginas para muchos anuncios.",
-    "Garaje público por corredor con miniaturas y carros comprados o ganados.",
-    "Corrección del cierre al abrir Vinyl y del error de miniaturas al entrar al multiplayer.",
-    "El impulso visual del nitro se activa una sola vez por carrera.",
-    "Asfalto menos brillante, bots del lobby y mejoras recientes de personalización."
+    "HUD curvo de drag con aguja de RPM, zona de cambios y lectura MPH.",
+    "Movimiento online suavizado para corredores y espectadores.",
+    "Luces delanteras por color, ajustes de rines, frenos y paneles de carbono.",
+    "Nitro con una sola activación por carrera y luces del stage más visibles.",
+    "Paseo libre: recuperación tras choques, sonidos de impacto/roce y burnout con freno y acelerador.",
+    "Se conservan las cuentas y partidas existentes al actualizar."
   ],
-  "build": 202610280100
+  "build": 202610280200
 }
