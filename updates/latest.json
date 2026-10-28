@@ -1,8 +1,8 @@
 {
   "game": "NEXTUP DRAG Beta",
   "channel": "beta",
-  "version": "0.4.7",
-  "date": "2026-10-27",
+  "version": "0.4.8",
+  "date": "2026-10-28",
   "platform": "Windows 64-bit",
   "installer": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-2026102701/NEXTUP_DRAG_Instalador_Con_Updates.exe",
   "installer_sha256": "587540f4e37fdbd0d436f0582d8a94c41f070e8931599a2b5da6dd94ffb7e48b",
@@ -11,11 +11,12 @@
   "multiplayer_endpoint": "malls-unplanned.tun.ply.gg:37447",
   "local_udp_port": 24824,
   "notes": [
-    "Elige H2H o Bracket al preparar un reto en el lobby multijugador.",
-    "Bracket permite dial individual con tres decimales y salida compensada.",
-    "Friends, Cash y Pink disponibles con los dos tipos de carrera.",
-    "Resultados por RT, ET, dial y breakout calculados por el servidor.",
-    "Bracket se concentra en el lobby multijugador; se retiró el acceso del mapa."
+    "Used Cars en el mapa, con paneles separados para comprar/trade, publicar y mis anuncios.",
+    "Lista de carros con tres columnas, desplazamiento y páginas para muchos anuncios.",
+    "Garaje público por corredor con miniaturas y carros comprados o ganados.",
+    "Corrección del cierre al abrir Vinyl y del error de miniaturas al entrar al multiplayer.",
+    "El impulso visual del nitro se activa una sola vez por carrera.",
+    "Asfalto menos brillante, bots del lobby y mejoras recientes de personalización."
   ],
-  "build": 202610271910
+  "build": 202610280100
 }
