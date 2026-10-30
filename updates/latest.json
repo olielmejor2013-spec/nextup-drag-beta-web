@@ -1,35 +1,20 @@
 {
   "game": "NEXTUP DRAG Beta",
   "channel": "beta",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "date": "2026-10-30",
   "platform": "Windows 64-bit",
   "installer": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-2026102701/NEXTUP_DRAG_Instalador_Con_Updates.exe",
   "installer_sha256": "587540f4e37fdbd0d436f0582d8a94c41f070e8931599a2b5da6dd94ffb7e48b",
-  "update_file": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-202610301402/NEXTUP_Update_202610301402.zip",
-  "update_sha256": "ee1dd2e60e27ddb868752a293a50225ebafa6da7e1fb818b534e4e7b5b7b44dc",
+  "update_file": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-202610301822/NEXTUP_Update_202610301822.zip",
+  "update_sha256": "af8e6c42b25ef6f41449d2ad8a16d8a7300f4c1b42d60153f9df73e0441702a2",
   "multiplayer_endpoint": "malls-unplanned.tun.ply.gg:37447",
   "local_udp_port": 24824,
   "notes": [
-    "Parche de pantalla y RT: sin reinicios de ventana al cambiar de carro o escena.",
-    "Limites 60/120/240 o sin limite conservados en pista, lobby y menu; VSync no impone 60 FPS al elegir un limite.",
-    "Contador FPS global; clic derecho deja full rev fijo en N en CPU y multijugador.",
-    "W lanza manualmente: salir antes del verde marca foul y conserva la medicion RT.",
-    "Seis carros nuevos con interiores y texturas originales, pintura mejorada y audio sintetizado por RPM.",
-    "Concesionario de unidades nuevas: compras repetidas con ID individual y preparaciones independientes.",
-    "Miniaturas normalizadas, tinte corregido y carbono en paneles separados compatibles.",
-    "Taller con PNG de cada categoria y vista de pieza compacta sin cambiar la distribucion original.",
-    "Potencia, torque, peso, agarre y ratios afectan el rendimiento de la carrera.",
-    "Lobby actualizado con los modelos nuevos, cinco bots y coleccion completa de carros.",
-    "Panel Owner en el lobby: busqueda por nombre y entrega de creditos, diamantes, SC, niveles y roles.",
-    "Roles con cinco emblemas PNG y colores en chat de sala y de amigos; rol normal blanco.",
-    "Regalos del administrador persistentes y protegidos contra duplicacion al reconectar.",
-    "Drag de 201 metros, staging manual de 35 segundos, N con full rev y salida con W despues del verde.",
-    "HUD RPM con nitro integrado, camara estable y letreros rojos y blancos.",
-    "Perfil ligero para 8 GB y graficos integrados; calidad alta conservada en GPU dedicada.",
-    "Se conservan cuentas, carros, dinero, diamantes, piezas, ratios, niveles y SC.",
-    "Nombre permanente y Civic Beta de regalo con preparacion fija de fabrica.",
-    "Corregido el cuadro blanco del emblema de rol: texturas retenidas y verificadas en las cinco tarjetas."
+    "Se corrigió SALA LOCAL / ESTA PC: ahora sale del intento pendiente de conexión pública y abre o se une a la sala local.",
+    "La sala local carga y muestra los cinco bots del servidor.",
+    "El lobby público muestra los corredores y bots que envíe el servidor público.",
+    "Se conservan las cuentas y los guardados existentes."
   ],
-  "build": 202610301402
+  "build": 202610301822
 }
