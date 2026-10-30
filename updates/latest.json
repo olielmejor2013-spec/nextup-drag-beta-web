@@ -6,11 +6,15 @@
   "platform": "Windows 64-bit",
   "installer": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-2026102701/NEXTUP_DRAG_Instalador_Con_Updates.exe",
   "installer_sha256": "587540f4e37fdbd0d436f0582d8a94c41f070e8931599a2b5da6dd94ffb7e48b",
-  "update_file": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-202610300339/NEXTUP_Update_202610300339.zip",
-  "update_sha256": "9eb0206222e3411147faaec160443436e19fa7e5f8e132e9bb4076d64ce7985d",
+  "update_file": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-202610301402/NEXTUP_Update_202610301402.zip",
+  "update_sha256": "ee1dd2e60e27ddb868752a293a50225ebafa6da7e1fb818b534e4e7b5b7b44dc",
   "multiplayer_endpoint": "malls-unplanned.tun.ply.gg:37447",
   "local_udp_port": 24824,
   "notes": [
+    "Parche de pantalla y RT: sin reinicios de ventana al cambiar de carro o escena.",
+    "Limites 60/120/240 o sin limite conservados en pista, lobby y menu; VSync no impone 60 FPS al elegir un limite.",
+    "Contador FPS global; clic derecho deja full rev fijo en N en CPU y multijugador.",
+    "W lanza manualmente: salir antes del verde marca foul y conserva la medicion RT.",
     "Seis carros nuevos con interiores y texturas originales, pintura mejorada y audio sintetizado por RPM.",
     "Concesionario de unidades nuevas: compras repetidas con ID individual y preparaciones independientes.",
     "Miniaturas normalizadas, tinte corregido y carbono en paneles separados compatibles.",
@@ -24,7 +28,8 @@
     "HUD RPM con nitro integrado, camara estable y letreros rojos y blancos.",
     "Perfil ligero para 8 GB y graficos integrados; calidad alta conservada en GPU dedicada.",
     "Se conservan cuentas, carros, dinero, diamantes, piezas, ratios, niveles y SC.",
-    "Nombre permanente y Civic Beta de regalo con preparacion fija de fabrica."
+    "Nombre permanente y Civic Beta de regalo con preparacion fija de fabrica.",
+    "Corregido el cuadro blanco del emblema de rol: texturas retenidas y verificadas en las cinco tarjetas."
   ],
-  "build": 202610300339
+  "build": 202610301402
 }
