@@ -1,5 +1,5 @@
 // NEXTUP DRAG - official Windows installer and live signed-channel version display
-const OFFICIAL_INSTALLER_URL = "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/nextup-drag-installer-v5-20261107/NEXTUP.DRAG.-.INSTALADOR.exe";
+const OFFICIAL_INSTALLER_URL = "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/nextup-drag-installer-v9-20261107/NEXTUP.DRAG.-.INSTALADOR.V9.exe";
 const intro = document.getElementById('intro');
 window.addEventListener('load', () => setTimeout(() => intro?.classList.add('done'), 650));
 const statusNode = document.getElementById('update-status');
