@@ -3,20 +3,17 @@
     "game": "NEXTUP DRAG Beta",
     "channel": "v2",
     "minimum_launcher": 2,
-    "build": 202611070211,
+    "build": 20261107083402,
     "version": "0.5.2 Beta",
-    "url": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-202611070211/NEXTUP_Update_202611070211.zip",
-    "sha256": "c60ae4a8352a80bdfb74c318b9560d2be3bd42e45b5c67241cfc7fbe6e080324",
-    "size": 977675803,
-    "game_sha256": "f350c2f9c751d36685e929644edfc12c83498516fe6dc16c4bae82177e24f992",
-    "game_size": 109127680,
+    "url": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-20261107083402/NEXTUP_Update_20261107083402_SOLO_JUEGO.zip",
+    "sha256": "6422026d7cc7e89996e9085253c0d3db64b97198ca488a1956848facf88696d3",
+    "size": 978261688,
+    "game_sha256": "0024ee0f45aad2df462971edae63edc336706e3bcdbc73c3912214995714f155",
+    "game_size": 109319680,
     "notes": [
-      "Interfaz de perfil y garaje con score y potencia de los autos",
-      "Mejoras visuales y del taller",
-      "Ajustes de agarre para gomas slicks",
-      "Correcciones de camara de meta",
-      "Otras mejoras incluidas en la compilacion exportada"
+      "Paquete limpio: solo ejecutable de Godot y datos PCK necesarios",
+      "Actualizacion de NEXTUP DRAG Beta 0.5.2"
     ]
   },
-  "signature": "OwRVMRi9Q7OR3JZO37SdBn/5kRk4ZoLZC2KlosjvjbTzT49MP8gzNL3SZ4VVCbuIiRBSxXcD5THXuBaXarkPWEZzVoMGxAGhGmUu09nDQrRelkwGqRLK7jvbx6iK7L6Y5YT5fLpisBXgOewvC7fLCkXKQA3i4BRLuxotX28ZBsZsE6tfro9VU27C980gN7zzc2EoQUQM5CozgrVlB+9uYyQ/V9miH7BSGAF5eE4TBA88YifbKo9C+br0rmQSqYvxZfxg6FH1UOP92CsH8pft3bjtPYDo6tm9yT+dObdxKQOC7OjByNTxuPX2ag1Kz8gLUIlBGaL4pXlvns9jaFGiJQ=="
+  "signature": "AzcE7yHiSp2w1P/TmL0F1hlUIPMFsPpRL5kCfhh9CZ+l9moo7+pQA0U9W62DetpNeDQ3ADDWXM1MgqtMy+5gkUT8bqov6+RHx7Yl77ahySO0HUOw4Jt30BWMNEwGGCk4d6Xf6S3y1rLVIOinTZodkCmpRtV+8EMeLm3z6aRqHFducQXHwm1HN0jbCDOIBscazaG2JhvkfeqC4IQuBz3zwrOphyp4yvflvCydkgV/KQefOotB98nMa5SXN39H5RFXVAHQuRrTQC0NcwJs9lA7/z7zPMH8/oiOzj4vKm2VqllTRprz2wyXoUCPkNm+wapLZkCbUHbirRuvGX9jR4PQMg=="
 }
