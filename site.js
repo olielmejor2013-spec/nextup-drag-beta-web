@@ -1,13 +1,63 @@
-const intro=document.getElementById('intro');window.addEventListener('load',()=>setTimeout(()=>intro?.classList.add('done'),650));
-const statusNode=document.getElementById('update-status');
-fetch('updates/latest.json?'+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('manifest');return r.json()}).then(data=>{
-  const version=String(data.version||'0.4.7');
-  document.getElementById('release-version').textContent=version;
-  document.getElementById('release-date').textContent=data.date||'ÚLTIMA BETA DISPONIBLE';
-  document.getElementById('endpoint').textContent=data.multiplayer_endpoint||'malls-unplanned.tun.ply.gg:37447';
-  const notes=document.getElementById('release-notes');
-  if(Array.isArray(data.notes)){notes.replaceChildren(...data.notes.map(text=>{const li=document.createElement('li');li.textContent=text;return li}))}
-  if(data.installer){document.querySelectorAll('a[href*="_Instalador.exe"]').forEach(a=>a.href=data.installer)}
-  statusNode.textContent='VERSIÓN MÁS RECIENTE · '+version.toUpperCase();
-}).catch(()=>{statusNode.textContent='BETA 0.4.7 · NO SE PUDO VERIFICAR LA VERSIÓN'});
-document.getElementById('copy-endpoint')?.addEventListener('click',async e=>{const button=e.currentTarget;try{await navigator.clipboard.writeText(document.getElementById('endpoint').textContent);button.innerHTML='DIRECCIÓN COPIADA <span>✓</span>'}catch{button.innerHTML='COPIA: malls-unplanned.tun.ply.gg:37447 <span>↗</span>'}setTimeout(()=>button.innerHTML='COPIAR DIRECCIÓN <span>▣</span>',2200)});
+// NEXTUP DRAG - official Windows installer and live signed-channel version display
+const OFFICIAL_INSTALLER_URL = "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/nextup-drag-installer-v5-20261107/NEXTUP.DRAG.-.INSTALADOR.exe";
+const intro = document.getElementById('intro');
+window.addEventListener('load', () => setTimeout(() => intro?.classList.add('done'), 650));
+const statusNode = document.getElementById('update-status');
+
+// Use a stable, publicly published installer URL; do not read the legacy installer URL.
+function configureDownloadLinks() {
+  document.querySelectorAll('.nav-download, .hero-actions .button-primary, #release-download, .big-download').forEach(a => {
+    a.href = OFFICIAL_INSTALLER_URL;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.removeAttribute('download');
+  });
+}
+configureDownloadLinks();
+
+// The current V5 game channel is updates/v2.json. Legacy latest.json is left unchanged
+// because older clients may depend on its original format and signature.
+fetch('updates/v2.json?bust=' + Date.now(), {cache: 'no-store'})
+  .then(r => { if (!r.ok) throw Error('V2 manifest HTTP ' + r.status); return r.json(); })
+  .then(data => {
+    const p = data.payload || {};
+    const version = String(p.version || '0.5.2 Beta');
+    const build = String(p.build || '');
+    const compactVersion = version.replace(/\s*Beta\s*$/i, '');
+    const versionNode = document.getElementById('release-version');
+    if (versionNode) versionNode.textContent = compactVersion;
+    const titleNode = document.getElementById('release-title');
+    if (titleNode) titleNode.textContent = 'NEXTUP DRAG ' + version;
+    const dateNode = document.getElementById('release-date');
+    if (dateNode) dateNode.textContent = build ? 'COMPILACIÓN ' + build : 'ÚLTIMA BETA DISPONIBLE';
+    const notes = document.getElementById('release-notes');
+    if (notes && Array.isArray(p.notes)) notes.replaceChildren(...p.notes.map(t => {
+      const li = document.createElement('li'); li.textContent = String(t); return li;
+    }));
+    if (statusNode) statusNode.textContent = 'VERSIÓN MÁS RECIENTE · ' + version.toUpperCase();
+    const heroVersion = document.querySelector('.hero-meta span b');
+    if (heroVersion) heroVersion.textContent = compactVersion;
+  })
+  .catch(() => {
+    if (statusNode) statusNode.textContent = 'BETA 0.5.2 · VERSIÓN PUBLICADA';
+  });
+
+// Preserve multiplayer endpoint from the existing public status file, never its installer.
+fetch('updates/latest.json?bust=' + Date.now(), {cache: 'no-store'})
+  .then(r => { if (!r.ok) throw Error('legacy info'); return r.json(); })
+  .then(data => {
+    const endpoint = document.getElementById('endpoint');
+    if (endpoint && data.multiplayer_endpoint) endpoint.textContent = data.multiplayer_endpoint;
+  }).catch(() => {});
+
+document.getElementById('copy-endpoint')?.addEventListener('click', async e => {
+  const button = e.currentTarget;
+  const original = button.innerHTML;
+  try {
+    await navigator.clipboard.writeText(document.getElementById('endpoint').textContent);
+    button.innerHTML = 'DIRECCIÓN COPIADA <span>✓</span>';
+  } catch {
+    button.textContent = 'COPIA LA DIRECCIÓN DEL SERVIDOR';
+  }
+  setTimeout(() => button.innerHTML = original, 2200);
+});
