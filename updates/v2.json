@@ -3,11 +3,11 @@
     "game": "NEXTUP DRAG Beta",
     "channel": "v2",
     "minimum_launcher": 2,
-    "build": 20261107083402,
+    "build": 20261107103217,
     "version": "0.5.2 Beta",
-    "url": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-20261107083402/NEXTUP_Update_20261107083402_SOLO_JUEGO.zip",
-    "sha256": "6422026d7cc7e89996e9085253c0d3db64b97198ca488a1956848facf88696d3",
-    "size": 978261688,
+    "url": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-20261107103217/NEXTUP_Update_20261107103217_SOLO_JUEGO.zip",
+    "sha256": "3dec82fdb19f327ed99cb3253ecb5b9fbaeef974280cd3f1a015785fa1e426fa",
+    "size": 978445530,
     "game_sha256": "0024ee0f45aad2df462971edae63edc336706e3bcdbc73c3912214995714f155",
     "game_size": 109319680,
     "notes": [
@@ -15,5 +15,5 @@
       "Actualizacion de NEXTUP DRAG Beta 0.5.2"
     ]
   },
-  "signature": "AzcE7yHiSp2w1P/TmL0F1hlUIPMFsPpRL5kCfhh9CZ+l9moo7+pQA0U9W62DetpNeDQ3ADDWXM1MgqtMy+5gkUT8bqov6+RHx7Yl77ahySO0HUOw4Jt30BWMNEwGGCk4d6Xf6S3y1rLVIOinTZodkCmpRtV+8EMeLm3z6aRqHFducQXHwm1HN0jbCDOIBscazaG2JhvkfeqC4IQuBz3zwrOphyp4yvflvCydkgV/KQefOotB98nMa5SXN39H5RFXVAHQuRrTQC0NcwJs9lA7/z7zPMH8/oiOzj4vKm2VqllTRprz2wyXoUCPkNm+wapLZkCbUHbirRuvGX9jR4PQMg=="
+  "signature": "tIvxhQPk8v7mhbWKSgV0Vtomf6vQNPRw5Jr9/QC10xuUsBeezB66kJSnCbkmxASw/kjUKbNseGcAfQFKkqb66jdidZKqzUJbrHx5rcPoQWgGHttK+NXlHLNrz9wwwC15jSbWRROzaqbrft88uHTcGZuxbWpxRS9aLRoBygD5TTCzkoT4pdmQAHLFLCor+rb7laHdNXqJKYfZyJsDus7tPzVt/dw4V6lXCyq/E72TvI/O6OF7lKXKPmpmV+pq0cfOnEcvftjRwItfs2+RoEDTsp5RkOeifVE9IRTC80rzCiZ+ZyRLJftqi3ZZBcOFfGKFd26NppWt0zdGgeGUEBAwmQ=="
 }
