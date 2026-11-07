@@ -1,0 +1,22 @@
+{
+  "payload": {
+    "game": "NEXTUP DRAG Beta",
+    "channel": "v2",
+    "minimum_launcher": 2,
+    "build": 202611070211,
+    "version": "0.5.2 Beta",
+    "url": "https://github.com/olielmejor2013-spec/nextup-drag-beta-web/releases/download/client-202611070211/NEXTUP_Update_202611070211.zip",
+    "sha256": "c60ae4a8352a80bdfb74c318b9560d2be3bd42e45b5c67241cfc7fbe6e080324",
+    "size": 977675803,
+    "game_sha256": "f350c2f9c751d36685e929644edfc12c83498516fe6dc16c4bae82177e24f992",
+    "game_size": 109127680,
+    "notes": [
+      "Interfaz de perfil y garaje con score y potencia de los autos",
+      "Mejoras visuales y del taller",
+      "Ajustes de agarre para gomas slicks",
+      "Correcciones de camara de meta",
+      "Otras mejoras incluidas en la compilacion exportada"
+    ]
+  },
+  "signature": "OwRVMRi9Q7OR3JZO37SdBn/5kRk4ZoLZC2KlosjvjbTzT49MP8gzNL3SZ4VVCbuIiRBSxXcD5THXuBaXarkPWEZzVoMGxAGhGmUu09nDQrRelkwGqRLK7jvbx6iK7L6Y5YT5fLpisBXgOewvC7fLCkXKQA3i4BRLuxotX28ZBsZsE6tfro9VU27C980gN7zzc2EoQUQM5CozgrVlB+9uYyQ/V9miH7BSGAF5eE4TBA88YifbKo9C+br0rmQSqYvxZfxg6FH1UOP92CsH8pft3bjtPYDo6tm9yT+dObdxKQOC7OjByNTxuPX2ag1Kz8gLUIlBGaL4pXlvns9jaFGiJQ=="
+}
